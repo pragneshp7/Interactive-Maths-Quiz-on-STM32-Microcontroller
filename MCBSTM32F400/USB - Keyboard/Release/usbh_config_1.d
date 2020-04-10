@@ -1,0 +1,30 @@
+.\release\usbh_config_1.o: RTE\USB\USBH_Config_1.c
+.\release\usbh_config_1.o: C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\RTE_Components.h
+.\release\usbh_config_1.o: RTE\USB\USBH_Config_HID.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usbh_config.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_def.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_compiler.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_compiler.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include\cmsis_armcc.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_adc.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_cdc.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_hid.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_msc.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\rl_usb.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_os.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS2\Include\cmsis_os2.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS2\RTX\Include\rtx_os.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usb_ms.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\rl_usbh_lib.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_USBH.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_USB.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include\Driver_Common.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usbh_compatibility.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usbh_config_def_1.h
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usbh_config_hc_1.c
+.\release\usbh_config_1.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include\usbh_cmsis_rtos2.c
+.\release\usbh_config_1.o: C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\CMSIS\..\USB\USBH_Config_HID.h

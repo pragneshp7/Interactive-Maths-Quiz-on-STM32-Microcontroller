@@ -1,0 +1,26 @@
+.\debug\usb_debug.o: RTE\USB\USB_Debug.c
+.\debug\usb_debug.o: C:\Users\admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\RTE_Components.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usbh_debug.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usbh_config_dbg.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\ARM_Compiler\1.6.0\Include\EventRecorder.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usbh_evr.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\rl_usb.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_os.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include\cmsis_os2.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include\rtx_os.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include1\cmsis_os.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_compiler.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_compiler.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Core\Include\cmsis_armcc.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_def.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_cdc.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_cdc_acm_rndis.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_hid.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_msc.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\USB\Include\usb_ms.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_USBH.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_USB.h
+.\debug\usb_debug.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_Common.h

@@ -1,0 +1,19 @@
+.\debug\fs_config.o: RTE\File_System\FS_Config.c
+.\debug\fs_config.o: C:\Users\admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\RTE_Components.h
+.\debug\fs_config.o: RTE\File_System\FS_Config_NAND_0.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\FileSystem\Include\fs_config.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\rt_sys.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\FileSystem\Include\rl_fs_lib.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdarg.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_NAND.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\Driver\Include\Driver_Common.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdbool.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\FileSystem\Include\rl_fs.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.8.0\FileSystem\Include\fs_os.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include1\cmsis_os.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\Include\cmsis_os2.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.4.0\CMSIS\RTOS2\RTX\Include\rtx_os.h
+.\debug\fs_config.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

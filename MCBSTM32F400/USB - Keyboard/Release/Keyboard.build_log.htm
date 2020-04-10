@@ -1,0 +1,243 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a a a Flex license: MDK-ARM Professional (mdk_pro) Borrow: 30 Nov 2018
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.20
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      UL2CM3.DLL V1.157.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\Keyboard.uvprojx
+Project File Date:  03/30/2018
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'Release'
+compiling stdout_display.c...
+compiling GLCD_Fonts.c...
+compiling main.c...
+compiling Keyboard.c...
+Keyboard.c(135): warning:  #1461-D: function declared with "noreturn" does return
+  }
+Keyboard.c(37): warning:  #177-D: variable "hid_status" was declared but never referenced
+    usbStatus hid_status;                 // HID status
+Keyboard.c(40): warning:  #177-D: variable "ch" was declared but never referenced
+    int       ch;                         // Character
+Keyboard.c(41): warning:  #177-D: variable "con" was declared but never referenced
+    uint8_t   con = 0U;                   // Connection status of keyboard
+Keyboard.c(46): warning:  #177-D: variable "score" was declared but never referenced
+  	int score;
+Keyboard.c: 5 warnings, 0 errors
+compiling rtx_lib.c...
+compiling RTX_Config.c...
+compiling GLCD_MCBSTM32F400.c...
+compiling OTG_FS_STM32F4xx.c...
+compiling OTG_HS_STM32F4xx.c...
+compiling retarget_io.c...
+compiling USBH_FS_STM32F4xx.c...
+compiling USBH_HS_STM32F4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_hal_adc.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_rcc.c...
+compiling stm32f4xx_hal_sram.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+assembling startup_stm32f407xx.s...
+compiling stm32f4xx_ll_fsmc.c...
+compiling system_stm32f4xx.c...
+compiling USBH_Config_0.c...
+compiling USBH_Config_1.c...
+linking...
+Program Size: Code=43448 RO-data=6696 RW-data=8560 ZI-data=5520  
+".\Release\Keyboard.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ::CMSIS Driver:USB Host:2.2.0 (API)
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: USB Host Version: 2.2.0
+   * Component: RTOS2 Version: 2.1.2
+   * Component: CORE Version: 5.1.1
+   * Component: Keil RTX5 Variant: Library Version: 5.3.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.4.0.pack
+                Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.4.0
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: User Version: 1.4.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.MDK-Middleware.7.6.0.pack
+                ::Board Support:Graphic LCD:1.0.0 (API)
+                Middleware for Keil MDK-Professional and MDK-Plus
+   * Component: Graphic LCD Version: 1.0.0
+   * Component: CORE Variant: Release Version: 6.12.4
+   * Component: Host Version: 6.12.4
+   * Component: HID Version: 6.12.4
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.13.0.pack
+                Keil::Device:Startup:2.6.2
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.2
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: ADC Version: 1.7.4
+   * Component: Common Version: 1.7.4
+   * Component: Classic Version: 1.7.4
+   * Component: PWR Version: 1.7.4
+   * Component: DMA Version: 1.7.4
+   * Component: Cortex Version: 1.7.4
+   * Component: GPIO Version: 1.7.4
+   * Component: Full-speed Version: 2.21
+   * Component: RCC Version: 1.7.4
+   * Component: SRAM Version: 1.7.4
+   * Component: Graphic LCD Version: 2.0.0
+   * Component: High-speed Version: 2.22
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE
+  C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\CMSIS
+  C:\Users\Admin\Desktop\Moosa 2\MDK\Boards\Keil\MCBSTM32F400\Middleware\USB\Host\Keyboard\RTE\Device\STM32F407IGHx
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Driver\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS2\Include
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\RTOS2\RTX\Include
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\Board
+  C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\7.6.0\USB\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\STM32F4xx_HAL_Driver\Inc
+  C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\MDK\Boards\Keil\MCBSTM32F400\Common
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS Driver:USB Host:2.2.0 (API)
+      Include file:  CMSIS\Driver\Include\Driver_USBH.h
+
+   * Component: ::CMSIS:RTOS2:2.1.2 (API)
+      Include file:  CMSIS\RTOS2\Include\cmsis_os2.h
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+
+   * Component: ARM::CMSIS:RTOS2:Keil RTX5:Library:5.3.0
+      Source file:   CMSIS\RTOS2\RTX\Source\rtx_lib.c
+      Library file:  CMSIS\RTOS2\RTX\Library\ARM\RTX_CM4F.lib
+      Source file:   CMSIS\RTOS2\RTX\Template\svc_user.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Timer.c
+      Source file:   CMSIS\RTOS2\RTX\Template\MemPool.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Thread.c
+      Source file:   CMSIS\RTOS2\RTX\Template\main.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Events.c
+      Source file:   CMSIS\RTOS2\RTX\Template\MsgQueue.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Mutex.c
+      Include file:  CMSIS\RTOS2\RTX\Config\RTX_Config.h
+      Source file:   CMSIS\RTOS2\RTX\Config\RTX_Config.c
+      Source file:   CMSIS\RTOS2\RTX\Template\Semaphore.c
+      Include file:  CMSIS\RTOS2\RTX\Include\rtx_os.h
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:User:1.4.0
+      Source file:   Template\stdout_USART.c
+      Source file:   Template\stdout_user.c
+      Source file:   Source\retarget_io.c
+      Source file:   Template\stdout_display.c
+
+   * Component: ::Board Support:Graphic LCD:1.0.0 (API)
+      Include file:  Board\Board_GLCD.h
+
+   * Component: Keil.MDK-Pro::USB:CORE:Release:6.12.4
+      Include file:  USB\Include\rl_usb.h
+      Library file:  USB\Lib\ARM\USB_CM3_L.lib
+
+   * Component: Keil.MDK-Pro::USB:Host:6.12.4
+      Source file:   USB\Config\USBH_Config.c
+
+   * Component: Keil.MDK-Pro::USB:Host:HID:6.12.4
+      Source file:   USB\Config\USBH_Config_HID.h
+
+   * Component: Keil::Device:Startup:2.6.2
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f407xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F40xxx_41xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: Keil::Device:STM32Cube HAL:ADC:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.7.4
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Include file:  MDK\Templates\Inc\main.h
+      Include file:  MDK\Templates_LL\Inc\main.h
+      Source file:   MDK\Templates_LL\Src\main.c
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Source file:   MDK\Templates\Src\main.c
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:DMA:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::CMSIS Driver:USB Host:Full-speed:2.21
+      Source file:   CMSIS\Driver\OTG_FS_STM32F4xx.c
+      Source file:   CMSIS\Driver\USBH_FS_STM32F4xx.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:SRAM:1.7.4
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
+
+   * Component: Keil.MCBSTM32F400::Board Support:Graphic LCD:2.0.0
+      Include file:  MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_Config.h
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_MCBSTM32F400.c
+      Source file:   MDK\Boards\Keil\MCBSTM32F400\Common\GLCD_Fonts.c
+
+   * Component: Keil::CMSIS Driver:USB Host:High-speed:2.22
+      Source file:   CMSIS\Driver\OTG_HS_STM32F4xx.c
+      Source file:   CMSIS\Driver\USBH_HS_STM32F4xx.c
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
